@@ -5,7 +5,7 @@ Supplementary to our work on the Neurips 2022 Data and Benchmarks Track submissi
 ## Dataset Details
 1. [Dataset Design choices](https://github.com/fewshotseg/toss/blob/main/docs/DatasetDesign.md)
 2. [Setting Up for Benchmarking](https://github.com/fewshotseg/toss/blob/main/docs/Setup.md)
-3. [Supplemental information on Network biases](https://github.com/fewshotseg/toss/blob/main/BiasesMoreInfo.md)
+3. [Supplemental information on Network biases](https://github.com/fewshotseg/toss/blob/main/BiasesMoreInfo.md) including COCO-20<sup>i</sup> performance for salience-guided training set selection.
 
 
 ## Dataset organization
@@ -24,9 +24,3 @@ There are three tiers of splits -
 1. The attribute-oriented splits that evaluates a model for different complexities of images. This is in data/tiers/attribute. Each file is named splitN\_q\_[easy|hard]\_[sal|nsal].txt. N is the PASCAL-5<sup>i</sup> fold (0-based). Each file has at least 15000 pairs.
 2. The support-cognizance splits are in data/suppcog. The files are named splitN\_tier2.txt. Again N is for the PASCAL-5<sup>i</sup> split. 
 3. The generalization testt file is in the data/general/data/general\_tier.txt. It has 5006 pairs of files to be used as query and support. 
-
-
-
-### data/analysis/test\_stats.csv
-This file contains statistics for several (>15000) test files across the splits. The CSV columns are:
-| Mask-Name (filename with a target class prefixed) | baseline One-shot performance (iou) | target-area-ratio | 
