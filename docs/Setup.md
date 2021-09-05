@@ -7,12 +7,12 @@
 #### Ready the PASCAL 5<sup>i</sup> test data
 Use the script src/pascal5i.sh as follows:
 	
-	source src/pascal5i.sh toss/data
+	source src/pascal5i.sh data
 
 
 #### Ready the FSS-1000 dataset
 Use the script as follows:
-	source src/fss1k.sh toss/data
+	source src/fss1k.sh data
 
 #### Working with the splits
 Each test split is a collection of pairs of mask names. It looks like:

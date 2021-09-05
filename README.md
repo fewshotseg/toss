@@ -16,7 +16,7 @@ TOSS is a re-organization of the images and masks provided by Shaban et al. ([PA
 
 ### Fixed Test Splits
 PASCAL 5<sup>i</sup> - located in data/fixedsplits/pascal5i - each test file has 15000 pairs (3000 per test class, (query, support)).
-COCO 20<supp>i<sup> - located in data/fixedsplits/coco20i - each test file has at least 9000 pairs( query, support)
+COCO 20<sup>i</sup> - located in data/fixedsplits/coco20i - each test file has at least 9000 pairs( query, support)
 
 
 ### TOSS test splits
