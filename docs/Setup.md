@@ -11,8 +11,9 @@ Use the script src/pascal5i.sh as follows:
 
 
 #### Ready the FSS-1000 dataset
-Use the script as follows:
-	source src/fss1k.sh data
+ Download the FSS-1000 dataset from the authors' website: [here](https://drive.google.com/file/d/16TgqOeI_0P41Eh3jWQlxlRXG9KIqtMgI/view).
+ Use the script as follows:
+	source src/fss1000.sh path-to-the-fss1000 dataset.
 
 #### Working with the splits
 Each test split is a collection of pairs of mask names. It looks like:
